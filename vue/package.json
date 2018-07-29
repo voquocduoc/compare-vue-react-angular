@@ -2,7 +2,7 @@
   "name": "compare-vue",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Gary Simon <contact@designcourse.com>",
+  "author": "Rober Vo <voquocduoc@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
