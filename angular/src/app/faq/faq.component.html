@@ -1,3 +1,18 @@
-<p>
-  faq works!
-</p>
+<div>
+  <div className="container">
+    <section className="section">
+        <h1 className="title">FAQ</h1>
+        <h2 className="subtitle is-4">Lorum ipsum and all of that jazz.</h2>
+        <div className="columns">
+            <div className="column is-one-third" *ngFor="let faq of (faqs ? faqs.slice(0,10):[])">
+                <div className="card">
+                  <div className="card-content">
+                      <p className="title">{{faq.title}}</p>
+                      <p className="answer">{{faq.body}}</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+</div>

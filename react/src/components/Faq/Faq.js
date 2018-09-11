@@ -24,25 +24,25 @@ class Faq extends Component {
         return (
             <div>
                 <div className="container">
-                <section className="section">
-                    <h1 className="title">FAQ</h1>
-                    <h2 className="subtitle is-4">Lorum ipsum and all of that jazz.</h2>
+                    <section className="section">
+                        <h1 className="title">FAQ</h1>
+                        <h2 className="subtitle is-4">Lorum ipsum and all of that jazz.</h2>
 
-                    
-                    <div className="columns">
-                        {this.state.faqs.map(faq =>
-                            <div className="column is-one-third">
-                                <div className="card">
-                                <div className="card-content">
-                                    <p className="title">{ faq.title }</p>
-                                    <p className="answer">{ faq.body }</p>
+                        
+                        <div className="columns">
+                            {this.state.faqs.map(faq =>
+                                <div className="column is-one-third">
+                                    <div className="card">
+                                    <div className="card-content">
+                                        <p className="title">{ faq.title }</p>
+                                        <p className="answer">{ faq.body }</p>
+                                    </div>
+                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                </section>
-            </div>
+                            )}
+                        </div>
+                    </section>
+                </div>
         </div>
         );
     }
